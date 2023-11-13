@@ -35,6 +35,53 @@
 
 #REMOVE METHOD
 
-word = ["i", "c", "e", "w", "c", "x"];
-word.remove("c");
-print(word);
+# word = ["i", "c", "e", "w", "c", "x"];
+# word.remove("c");
+# print(word);
+
+#SLICE METHOD
+
+# numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+#print(numbers[1:6]);
+#print(numbers[:7]);
+# print(numbers[3:])
+# print(numbers[-6:-2])
+
+#SORT METHOD
+
+# numbers = [3, 7, 1, 9, 11, 55, 2];
+# numbers.sort(reverse=True);
+# print(numbers);
+
+# fruits = ["mango", "banana", "Orange", "Papaya", "Apple"];
+# fruits.sort();
+# print(fruits);
+
+# numbers = [1, 33, 2, 5, 4, 55];
+# sorted_num = sorted(numbers);
+# sorted_num_rev = sorted(sorted_num, reverse=True)
+# print(numbers);
+# print(sorted_num);
+# print(sorted_num_rev);
+
+#COPY METHOD
+
+# numbers = [30, 33, 55, 10, 5];
+# print(numbers);
+# print(numbers.copy());
+
+#EXTENT METHOD
+
+# numbers = [3, 4, 5, 7];
+# numbers_one = [8, 9, 10, 11];
+# numbers.extend(numbers_one);
+# print(numbers);
+
+#APEND METHOD
+
+fruits = ["Banana", "orange", "Apple"];
+# print(fruits);
+# fruits.append("grape");
+# print(fruits);
+fruits.insert(1, "grape");
+print(fruits);
