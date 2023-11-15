@@ -83,8 +83,20 @@
 # for i in range(0, 10):
 #     print(i);
 
-for i in range(1, 11):
-    if i == 6:
-        break;
+# for i in range(1, 11):
+#     if i == 6:
+#         break;
+#     print(i)
+# print("Stop");
+
+# for i in range(1, 11):
+#     if i == 5:
+#         break
+#     print(i)
+# print("Stop")
+
+for i in range(1, 12):
+    if i == 7:
+        continue
     print(i)
-print("Stop");
+print("i love bangladesh")
