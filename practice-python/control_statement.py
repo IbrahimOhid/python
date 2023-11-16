@@ -95,8 +95,82 @@
 #     print(i)
 # print("Stop")
 
-for i in range(1, 12):
-    if i == 7:
-        continue
-    print(i)
-print("i love bangladesh")
+# for i in range(1, 12):
+#     if i == 7:
+#         continue
+#     print(i)
+# print("i love bangladesh ")
+
+# item_price = [10, 20, 100, 500, 600];
+# total_buget = 1000;
+#
+# total_count = 0;
+#
+# for current_item_price in item_price:
+#     total_buget -= current_item_price
+#     if total_buget < 0:
+#         break
+#     total_count += 1;
+#
+# print(total_count)
+
+# total_item_price = [10, 30, 50, 400, 500, 600];
+# total_budget = 1000;
+#
+# total_count = 0;
+#
+# for current_item_price in total_item_price:
+#     total_budget -= current_item_price
+#     if total_budget > 0:
+#         total_count += 1
+# print(total_count)
+
+# while loop 🔽
+
+# i = 1;
+# while i <= 10:
+#     print(i);
+#     i += 1;
+# print("Hello python");
+
+# while break continue statement 🔽
+
+# i = 1;
+# while i <= 10:
+#     if i == 6:
+#         break
+#     print(i);
+#     i += 1;
+
+# i = 1;
+# while i <= 10:
+#     if i > 5 and i < 8:
+#         i += 1
+#         continue
+#     print(i);
+#     i += 1;
+
+#inline loop syntax 🔽
+
+# my_list = [];
+# for i in range(1, 101):
+#     my_list.append(i)
+# print(my_list)
+#
+# my_list = [i for i in range(1, 101)]
+# print(my_list);
+
+# numbers = [1, 2, 3, 10, 12, 22, 44, 98, 100]
+# even_number = [number for number in numbers if number % 2 == 0]
+# print(even_number);
+
+# numbers = [1, 3, 10, 22, 11, 15, 17, 91, 81, 71];
+# odd_number = [number for number in numbers if number % 2 == 1]
+# print(odd_number)
+
+#nested loop 🔽
+
+for i in range(1, 11):
+    for j in range(1, 11):
+        print(i, "*", j, "=", i * j)
+    print("-----------")
