@@ -35,3 +35,12 @@
 # #replace_text = dame_text.replace("!", "#");
 # replace_text = dame_text.replace("!", "#", 2);
 # print(replace_text);
+
+# split statement ⏬
+
+fruits = "Apple,Banana,Orange,Grape,Mango";
+all_fruit = fruits.split(",");
+print(all_fruit);
+
+car = "Bmw Audi Toyata";
+print(car.split(" "));
