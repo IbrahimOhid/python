@@ -38,9 +38,43 @@
 
 # split statement ⏬
 
-fruits = "Apple,Banana,Orange,Grape,Mango";
-all_fruit = fruits.split(",");
-print(all_fruit);
+# fruits = "Apple,Banana,Orange,Grape,Mango";
+# all_fruit = fruits.split(",");
+# print(all_fruit);
+#
+# car = "Bmw Audi Toyata";
+# print(car.split(" "));
 
-car = "Bmw Audi Toyata";
-print(car.split(" "));
+# slice statement ⏬
+
+# name = "Mohammad_Ibrahim";
+# print(name[0:8]);
+
+# name = "Ibrahim_ohid";
+# print(name[8:12]);
+
+# name = "Ibrahim_ohid";
+# print(name[:7]);
+
+# concat statement ⏬
+
+# first_name = "Mohammad";
+# last_name = "Ibrahim";
+# full_Name = first_name + " " + last_name;
+# print(full_Name);
+
+# format statement ⏬
+
+# first_name = "Mohammad";
+# last_name = "Ibrahim";
+# user_id = 102;
+# # full_name = "My name is {} {} and User id is {}".format(first_name, last_name, user_id);
+# full_name = ("My name is {first_name} {last_name} and User ID is {user_id}".format(
+#     first_name=first_name,
+#     last_name=last_name,
+#     user_id=user_id
+# ))
+# print(full_name);
+
+# print("Teacher Said \"Ibrahim is a good boy\"");
+print("I am Mohammad Ibrahim \"I am a Web Developer\"");
