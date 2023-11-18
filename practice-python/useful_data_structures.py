@@ -143,20 +143,20 @@
 
 # nested dictionary declaration 🔽
 
-courses = {
-    1: {
-        'name': 'Javascript',
-        'duration': 3
-    },
-    2: {
-        'name': 'python',
-        'duration': 4
-    }
-}
+# courses = {
+#     1: {
+#         'name': 'Javascript',
+#         'duration': 3
+#     },
+#     2: {
+#         'name': 'python',
+#         'duration': 4
+#     }
+# }
 
 # print(courses[1]);
 # print(courses[1]['duration']);
 # print(courses[2]['name']);
-courses[2]['finished'] = '3 month';
-print(courses[2])
+# courses[2]['finished'] = '3 month';
+# print(courses[2])
 
