@@ -69,8 +69,9 @@
 # print(current_time);
 # print(datetime.strftime(current_time, "%d/%m/%Y %H:%M:%S"));
 
-from datetime import datetime;
+# from datetime import datetime;
+#
+# date_String = "07, May, 1997";
+# date_formating = datetime.strptime(date_String, "%d, %B, %Y");
+# print(date_formating);
 
-date_String = "07, May, 1997";
-date_formating = datetime.strptime(date_String, "%d, %B, %Y");
-print(date_formating);
