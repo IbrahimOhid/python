@@ -60,7 +60,7 @@
 # print("MOhamamd ibrahim", end=" ");
 # print("01834598910");
 
-# if , else 🔽
+# if , else, elif 🔽
 
 # mark = 20;
 # if mark > 30:
@@ -77,3 +77,20 @@
 
 
 
+def mark():
+    if mark >= 80:
+        print("A+");
+    elif mark >= 70:
+        print("A-");
+    elif mark >= 60:
+        print("B");
+    elif mark >= 50:
+        print("C");
+    elif mark >= 40:
+        print("D");
+    else:
+        print("F");
+
+
+bangla = int(input("Enter a Number: "))
+print(bangla.mark());
