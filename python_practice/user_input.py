@@ -76,31 +76,32 @@
 #     print("Num2 SMALL");
 
 
-bangla = int(input("Enter a Bangla Number: "))
-if bangla >= 80:
-    print("A+");
-elif bangla >= 70:
-    print("A-");
-elif bangla >= 60:
-    print("B");
-elif bangla >= 50:
-    print("C");
-elif bangla >= 40:
-    print("D");
-else:
-    print("F");
+# bangla = int(input("Enter a Bangla Number: "))
+# if bangla >= 80:
+#     print("A+");
+# elif bangla >= 70:
+#     print("A-");
+# elif bangla >= 60:
+#     print("B");
+# elif bangla >= 50:
+#     print("C");
+# elif bangla >= 40:
+#     print("D");
+# else:
+#     print("F");
+#
+# english = int(input("Enter a English Number: "))
+# if english >= 80:
+#     print("A+");
+# elif english >= 70:
+#     print("A-");
+# elif english >= 60:
+#     print("B");
+# elif english >= 50:
+#     print("C");
+# elif english >= 40:
+#     print("D");
+# else:
+#     print("F");
 
-english = int(input("Enter a English Number: "))
-if english >= 80:
-    print("A+");
-elif english >= 70:
-    print("A-");
-elif english >= 60:
-    print("B");
-elif english >= 50:
-    print("C");
-elif english >= 40:
-    print("D");
-else:
-    print("F");
 
