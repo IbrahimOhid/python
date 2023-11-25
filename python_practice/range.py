@@ -4,6 +4,6 @@
 # num = list(range(6, 12));
 # print(num)
 
-numbers = list(range(2, 101, 2));
-print(numbers)
+# numbers = list(range(2, 101, 2));
+# print(numbers)
 
