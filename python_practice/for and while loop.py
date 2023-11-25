@@ -98,4 +98,60 @@
 #     sum += x * x;
 # print(sum);
 
+# file = open('../text.txt', 'r');
+# # search_word = ["Python", "C", "OOP", "Hello", "Java]" 💓💓💓💓💓💓💓💓
+# print(file.read())
 
+"""
+*
+**
+***
+
+*
+***
+*****
+"""
+# n = 3;
+# for i in range(n+1):
+#     print(i * "*");
+
+# n = 3;
+# for i in range(n+1):
+#     print((2*i-1)*"*");
+
+# n = 6;
+# for i in range(n+1):
+#     print(i * "*");
+
+# n = 5;
+# for i in range(n+1):
+#     print((2*i-1) * "*")
+
+# from random import randint;
+
+# guess_num = int(input("Enter a number : "));
+# random_num = randint(1, 50);
+#
+# if guess_num == random_num:
+#     print("You Win");
+#     print("Random Number Was", random_num);
+# else:
+#     print("lost")
+
+from random import randint;
+
+for x in range(1, 6):
+
+    guessNumber = int(input("Enter a Number 1 to 50: "));
+    correct_answer = randint(1, 50);
+    if guessNumber < correct_answer:
+        print("Correct answer is greater!");
+        print("Guess Number Was", correct_answer)
+    elif guessNumber > correct_answer:
+        print("Correct answer is smaller!")
+        print("Guess Number Was", correct_answer)
+    elif guessNumber == correct_answer:
+        print("You Win");
+        print("Guess Number Was", correct_answer)
+    else:
+        print("You Lose!")
