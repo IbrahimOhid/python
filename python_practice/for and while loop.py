@@ -141,9 +141,11 @@
 from random import randint;
 
 for x in range(1, 6):
+    low = 1;
+    high = 50;
 
     guessNumber = int(input("Enter a Number 1 to 50: "));
-    correct_answer = randint(1, 50);
+    correct_answer = randint(low, high);
     if guessNumber < correct_answer:
         print("Correct answer is greater!");
         print("Guess Number Was", correct_answer)
