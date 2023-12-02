@@ -92,9 +92,9 @@
 
 # country = ['Bangladesh', 'pakistan', 'afganistan',  'indonesia'];
 # *a, b, c = country;
-print(a);
-print(b);
-print(c);
+# print(a);
+# print(b);
+# print(c);
 
 # a, b, c, (d, e, f) = country;
 # print(a);
@@ -103,3 +103,31 @@ print(c);
 # print(d);
 # print(e);
 # print(f);
+
+# dict1 = {"name": "Mike", "salary": 8000}
+# temp = dict1.get("age")
+# print(temp)
+
+# dict1 = {"key1":1, "key2":2}
+# dict2 = {"key2":2, "key1":1}
+# print(dict1 == dict2)
+
+# student = {
+#   "name": "Emma",
+#   "class": 9,
+#   "marks": 75
+# }
+# del student['marks'];
+# print(student)
+
+# student = {
+#   "name": "Emma",
+#   "class": 9,
+#   "marks": 75
+# }
+# print(student.get(2))
+
+# student = {1: {'name': 'Emma', 'age': '27', 'sex': 'Female'},
+#            2: {'name': 'Mike', 'age': '22', 'sex': 'Male'}}
+# student = student[1]['age'];
+# print(student)
