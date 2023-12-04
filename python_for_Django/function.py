@@ -23,3 +23,7 @@
 #     print(student,studentInfo);
 # details('Mohammad', 'Ibrahim', 'ohid', fname='Hosna', lname='Mobarak', age= 25);
 
+# sum = lambda x, y: x + y;
+# print(sum(10, 30));
+
+# print((lambda a, b: a * b)(10, 10));
