@@ -58,3 +58,9 @@
 # new_num = tuple(filter(lambda a: a%2==1,n));
 # new_num = set(filter(lambda a: a % 2 == 0, n));
 # print(new_num);
+
+from  functools import reduce;
+
+# num = [1, 2, 3, 4, 5, 6];
+# new_num = reduce(lambda x,y: x*y, num);
+# print(new_num)
