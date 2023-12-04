@@ -47,8 +47,14 @@
 # new_num = set(map(lambda a:a*a, numbers));
 # print(new_num);
 
-num = ['Mohammad', 'Ibrahim', 'Ohid'];
-new_num = list(map(tuple, num));
-new_num = list(map(list, num));
-new_num = list(map(set, num));
-print(new_num);
+# num = ['Mohammad', 'Ibrahim', 'Ohid'];
+# new_num = list(map(tuple, num));
+# new_num = list(map(list, num));
+# new_num = list(map(set, num));
+# print(new_num);
+
+# n = [1, 2, 4, 5, 7, 8, 10, 12];
+# new_num = list(filter(lambda a: a%2==1,n));
+# new_num = tuple(filter(lambda a: a%2==1,n));
+# new_num = set(filter(lambda a: a % 2 == 0, n));
+# print(new_num);
