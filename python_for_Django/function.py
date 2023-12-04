@@ -59,8 +59,32 @@
 # new_num = set(filter(lambda a: a % 2 == 0, n));
 # print(new_num);
 
-from  functools import reduce;
+# from  functools import reduce;
 
 # num = [1, 2, 3, 4, 5, 6];
 # new_num = reduce(lambda x,y: x*y, num);
 # print(new_num)
+
+
+# def hof(fn):
+#     print(fn.__name__)
+#     fn()
+# def name():
+#     print("Mohamamd Ibrahim");
+#
+# def friend():
+#     print("Jisna");
+#
+# hof(friend);
+
+def allName(n):
+    print(n.__name__)
+    n();
+
+def fname():
+    print("Ibrahim");
+def lname():
+    print("Ohid");
+
+allName(fname);
+allName(lname);
