@@ -27,3 +27,28 @@
 # print(sum(10, 30));
 
 # print((lambda a, b: a * b)(10, 10));
+
+# def num(n):
+#     return n*n;
+#
+# numbers = [3, 4, 8, 10];
+# final_number = list(map(num,numbers));
+# print(final_number)
+
+# def num(n):
+#     return n*n*n;
+# number = [3, 2, 4];
+# final = tuple(map(num, number));
+# final = set(map(num, number));
+# print(final);
+
+# numbers = [1, 3, 4, 7, 9];
+# new_num = list(map(lambda x: x*x, numbers));
+# new_num = set(map(lambda a:a*a, numbers));
+# print(new_num);
+
+num = ['Mohammad', 'Ibrahim', 'Ohid'];
+new_num = list(map(tuple, num));
+new_num = list(map(list, num));
+new_num = list(map(set, num));
+print(new_num);
