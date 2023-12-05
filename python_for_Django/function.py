@@ -77,14 +77,38 @@
 #
 # hof(friend);
 
-def allName(n):
-    print(n.__name__)
-    n();
+# def allName(n):
+#     print(n.__name__)
+#     n();
+#
+# def fname():
+#     print("Ibrahim");
+# def lname():
+#     print("Ohid");
+#
+# allName(fname);
+# allName(lname);
 
-def fname():
-    print("Ibrahim");
-def lname():
-    print("Ohid");
+# def my():
+#     def hello():
+#         print("Hello World")
+#     return hello()
+# my();
 
-allName(fname);
-allName(lname);
+def para(p):
+    def text():
+        print("Bangladesh");
+        p()
+        print("Pakistan");
+
+    return text()
+
+
+def newText():
+    print("Canada")
+
+
+def fruit():
+    print("orange", "banana")
+
+para(fruit)
