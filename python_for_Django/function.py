@@ -95,20 +95,68 @@
 #     return hello()
 # my();
 
-def para(p):
-    def text():
-        print("Bangladesh");
-        p()
-        print("Pakistan");
+# def para(p):
+#     def text():
+#         print("Bangladesh");
+#         p()
+#         print("Pakistan");
+#
+#     return text()
+#
+#
+# def newText():
+#     print("Canada")
+#
+#
+# def fruit():
+#     print("orange", "banana")
+#
+# para(fruit)
 
-    return text()
+# def course_name(name, course):
+#     print("Hello!", name, "Welcome to Python");
+#     print("Your Course Name is", course);
+# course_name("Mohammad", "Python");
 
+# def calculate(a, b):
+#     add = a + b;
+#     return add
+# res = calculate(10, 20);
+# print(res)
 
-def newText():
-    print("Canada")
+# def calculate(x, y):
+#     multi = x * y;
+#     return multi
+# result = calculate(10, 10);
+# print(result)
 
+# def even_num(n):
+#     if n % 2 == 0:
+#         print("Even Number");
+#     else:
+#         print("Odd Number");
+# even_num(11);
 
-def fruit():
-    print("orange", "banana")
+# def  calculate(a, b):
+#     return  a + b;
+# result =  calculate(10, 20);
+# print(result)
 
-para(fruit)
+# def text(t):
+#     """I love Python Language"""
+#     return t;
+# print(text.__doc__)
+
+# def number(num1, num2):
+#     add = num1 + num2
+#     sub = num1 - num2
+#     multiply = num1 * num2
+#     division = num1 / num2
+#     return add, sub, multiply, division
+#
+#
+# a,b,c,d = number(10, 5)
+# print('Add', a);
+# print('Sub', b);
+# print('Multiply', c);
+# print('Division', d);
