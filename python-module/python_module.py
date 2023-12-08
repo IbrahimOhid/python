@@ -6,8 +6,14 @@
 # floor = math.floor(3.9);
 # print(floor);
 
-import copy
+# import copy
+#
+# print(copy.add(5, 3));
+# print(copy.pi);
+# obj = copy.A();
 
-print(copy.add(5, 3));
-print(copy.pi);
-obj = copy.A();
+# from copy import *
+#
+# print(add(5, 3));
+# print(pi);
+# obj = A();

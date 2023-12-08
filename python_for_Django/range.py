@@ -51,3 +51,9 @@
 #     sum += i
 # print(sum)
 
+# a = list(range(10));
+# print(a);
+
+# a = list(range(4, 20));
+# print(a);
+
